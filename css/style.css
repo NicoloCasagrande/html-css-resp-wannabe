@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 @media screen and(max-width: 480px) {
-    
+
     .row{
         flex-direction: column;
     }
@@ -151,5 +151,4 @@ img {
         align-self: center;
         width: 100%;
     }
-
  }
