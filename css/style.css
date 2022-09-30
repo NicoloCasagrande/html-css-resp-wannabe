@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -127,3 +127,29 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and(max-width: 480px) {
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        align-self: center;
+        width: 100%;
+    }
+
+ }
